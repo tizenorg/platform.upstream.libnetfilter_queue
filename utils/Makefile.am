@@ -1,4 +1,5 @@
-include ${top_srcdir}/Make_global.am
+
+INCLUDES = $(all_includes) -I$(top_srcdir)/include -I${KERNELDIR} 
 
 check_PROGRAMS = nfqnl_test
 
