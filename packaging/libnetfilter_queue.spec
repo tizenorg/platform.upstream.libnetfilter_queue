@@ -5,8 +5,7 @@ Version:        1.0.2
 Release:        2%{?dist}
 Summary:        Netfilter queue userspace library
 Group:          System Environment/Libraries
-# Most files say GPLv2+, one says v2 only.
-License:        GPLv2
+License:        GPL-2.0+
 URL:            http://netfilter.org
 Source0:        http://netfilter.org/projects/%{name}/files/%{name}-%{version}.tar.bz2
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
